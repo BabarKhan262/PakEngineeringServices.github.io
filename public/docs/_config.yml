@@ -11,86 +11,86 @@ plugins:
 
 navigation:
   - title: Installation
-    url: index.md
+    url: index.php
     icon: fas fa-microchip
   - title: Dependencies & Plugins
-    url: dependencies.md
+    url: dependencies.php
     icon: fas fa-handshake
   - title: Layout
-    url: layout.md
+    url: layout.php
     icon: fas fa-copy
   - title: Components
     icon: fas fa-th
     url: components
     subitems:
       - title: Main Header
-        url: components/main-header.md
+        url: components/main-header.php
       - title: Main Sidebar
-        url: components/main-sidebar.md
+        url: components/main-sidebar.php
       - title: Control Sidebar
-        url: components/control-sidebar.md
+        url: components/control-sidebar.php
       - title: Card
-        url: components/cards.md
+        url: components/cards.php
       - title: Small-/ Info-Box
-        url: components/boxes.md
+        url: components/boxes.php
       - title: Direct Chat
-        url: components/direct-chat.md
+        url: components/direct-chat.php
       - title: Timeline
-        url: components/timeline.md
+        url: components/timeline.php
       - title: Ribbons
-        url: components/ribbons.md
+        url: components/ribbons.php
       - title: Miscellaneous
-        url: components/miscellaneous.md
+        url: components/miscellaneous.php
       - title: Plugins
-        url: components/plugins.md
+        url: components/plugins.php
   - title: JavaScript
     icon: fas fa-code
     url: javascript
     subitems:
       - title: Layout
-        url: javascript/layout.md
+        url: javascript/layout.php
       - title: Push Menu
-        url: javascript/push-menu.md
+        url: javascript/push-menu.php
       - title: Treeview
-        url: javascript/treeview.md
+        url: javascript/treeview.php
       - title: Card Widget
-        url: javascript/card-widget.md
+        url: javascript/card-widget.php
       - title: CardRefresh
-        url: javascript/card-refresh.md
+        url: javascript/card-refresh.php
       - title: Control Sidebar
-        url: javascript/control-sidebar.md
+        url: javascript/control-sidebar.php
       - title: Direct Chat
-        url: javascript/direct-chat.md
+        url: javascript/direct-chat.php
       - title: Todo List
-        url: javascript/todo-list.md
+        url: javascript/todo-list.php
       - title: Toasts
-        url: javascript/toasts.md
+        url: javascript/toasts.php
       - title: Sidebar Search
-        url: javascript/sidebar-search.md
+        url: javascript/sidebar-search.php
       - title: Expandable Tables
-        url: javascript/expandable-tables.md
+        url: javascript/expandable-tables.php
       - title: IFrame
-        url: javascript/iframe.md
+        url: javascript/iframe.php
       - title: Navbar Search
-        url: javascript/navbar-search.md
+        url: javascript/navbar-search.php
   - title: Browser Support
-    url: browser-support.md
+    url: browser-support.php
     icon: fab fa-chrome
   - title: Implementations
-    url: implementations.md
+    url: implementations.php
     icon: fas fa-bookmark
   - title: Additional Styles
-    url: additional-styles.md
+    url: additional-styles.php
     icon: fas fa-mortar-pestle
   - title: Upgrade Guide
-    url: upgrade-guide.md
+    url: upgrade-guide.php
     icon: fas fa-hand-point-up
   - title: Contributing Guide
-    url: how-to-contribute.md
+    url: how-to-contribute.php
     icon: fas fa-hands-helping
   - title: FAQ
-    url: faq.md
+    url: faq.php
     icon: fas fa-question-circle
   - title: License
-    url: license.md
+    url: license.php
     icon: fas fa-file-contract
