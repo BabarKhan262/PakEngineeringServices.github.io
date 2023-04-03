@@ -11,38 +11,38 @@ plugins:
 
 navigation:
   - title: Installation
-    url: index.php
+    url: index.md
     icon: fas fa-microchip
   - title: Dependencies & Plugins
-    url: dependencies.php
+    url: dependencies.md
     icon: fas fa-handshake
   - title: Layout
-    url: layout.php
+    url: layout.md
     icon: fas fa-copy
   - title: Components
     icon: fas fa-th
     url: components
     subitems:
       - title: Main Header
-        url: components/main-header.php
+        url: components/main-header.md
       - title: Main Sidebar
-        url: components/main-sidebar.php
+        url: components/main-sidebar.md
       - title: Control Sidebar
-        url: components/control-sidebar.php
+        url: components/control-sidebar.md
       - title: Card
-        url: components/cards.php
+        url: components/cards.md
       - title: Small-/ Info-Box
-        url: components/boxes.php
+        url: components/boxes.md
       - title: Direct Chat
-        url: components/direct-chat.php
+        url: components/direct-chat.md
       - title: Timeline
-        url: components/timeline.php
+        url: components/timeline.md
       - title: Ribbons
-        url: components/ribbons.php
+        url: components/ribbons.md
       - title: Miscellaneous
-        url: components/miscellaneous.php
+        url: components/miscellaneous.md
       - title: Plugins
-        url: components/plugins.php
+        url: components/plugins.md
   - title: JavaScript
     icon: fas fa-code
     url: javascript
