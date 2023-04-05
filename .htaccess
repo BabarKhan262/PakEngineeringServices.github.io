@@ -20,9 +20,9 @@
     RewriteRule ^ index.php [L]
 
 # Hide a specific file
-<files .env>
-Order allow,deny
-Deny from all
-</files>
+# <files .env>
+# Order allow,deny
+# Deny from all
+# </files>
 
 </IfModule>
