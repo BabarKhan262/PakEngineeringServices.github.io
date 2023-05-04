@@ -42,21 +42,24 @@ Route::get('/contact-us', [HomeController::class, 'contactUS']);
 
 // Admin Login Details
 Route::get('/login-admin', [AdminController::class, 'adminLogin'])->name('login');
-Route::group(['middleware' => 'guard'], function () {
-    Route::get('/admin', [AdminController::class, 'index']);
-});
 Route::post('admin/login-check', [AdminController::class, 'checkAdmin']);
 Route::post('/logOut-admin', 'App\Http\Controllers\AdminController@logOut');
 
-// Admin Details
-Route::group(['prefix' => 'admin'], function () {
-    Route::resource('authentication', AuthController::class);
-    Route::resource('services', ServicesController::class);
-    Route::resource('projects', ProjectsController::class);
-    Route::resource('category', CategoryController::class);
-    Route::resource('team', TeamController::class);
-    Route::resource('testimonials', TestimonialController::class);
-    Route::resource('logo', HomeLogoController::class);
-    Route::resource('about', AboutController::class);
-    Route::resource('contact', ContactController::class);
+Route::middleware(['auth', 'guard'])->group(function () {
+    Route::get('/admin', [AdminController::class, 'index']);
+
+    // Admin Details
+    Route::group(['prefix' => 'admin'], function () {
+        Route::resource('authentication', AuthController::class);
+        Route::resource('services', ServicesController::class);
+        Route::resource('projects', ProjectsController::class);
+        Route::resource('category', CategoryController::class);
+        Route::resource('team', TeamController::class);
+        Route::resource('testimonials', TestimonialController::class);
+        Route::resource('logo', HomeLogoController::class);
+        Route::resource('about', AboutController::class);
+        Route::resource('contact', ContactController::class);
+    });
 });
+
+

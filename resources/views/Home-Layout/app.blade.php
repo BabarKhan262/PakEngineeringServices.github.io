@@ -148,7 +148,7 @@
     </section>
     <footer class="footer-section align-center">
         <div class="container">
-            <p><a href="templateshub.net">Templates Hub</a></p>
+            <p><a href="https://www.linkedin.com/in/babar-khan-142393225/">Developed by Babar Khan</a></p>
         </div>
     </footer>
     <a data-scroll href="#header" id="scroll-to-top"><i class="arrow_carrot-up"></i></a>

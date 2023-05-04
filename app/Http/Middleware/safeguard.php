@@ -17,7 +17,7 @@ class safeguard
      */
     public function handle(Request $request, Closure $next)
     {
-        if (Auth::user()) {
+        if (Auth::check() && Auth::user()) {
             return $next($request);
         } else {
             return redirect('/login-admin');
